@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>You are amazing!</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: 'Comic Sans MS', cursive;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .character {
+      width: 150px;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    .glow {
+      margin-top: 20px;
+      color: #ff69b4;
+      font-size: 28px;
+      text-shadow: 0 0 10px #ff69b4;
+    }
+  </style>
+</head>
+<body>
+  <img class="character" src="https://i.gifer.com/origin/99/9987b9fc290a13778f3837050d2ebdef_w200.gif" alt="cute character" />
+  <div class="glow">💖 You are amazing 💖</div>
+</body>
+</html>
